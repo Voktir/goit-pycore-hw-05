@@ -8,7 +8,8 @@ def caching_fibonacci():
 
     def fibonacci(n) -> int:
         if n < 0:
-            return "Incorrect Fibonacci key"
+            print("Incorrect Fibonacci key")
+            return 0
         
         # Якщо cache = {}
         # elif n < 2:
@@ -33,5 +34,5 @@ fib = caching_fibonacci()
 # # Використовуємо функцію fibonacci для обчислення чисел Фібоначчі
 # print(fib(15)) # Виведе 610
 # print(fib(10)) # Виведе 55
-# print(fib(-1))
+# print(fib(-1)) # :)
 # print(fib(16)) # Виведе 987
