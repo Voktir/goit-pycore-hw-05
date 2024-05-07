@@ -52,4 +52,8 @@
 #             print_out("file", f"{tabs}{path.name}")
 #         else:
 #             print_out("",f"{tabs}Unknown entity")
+
+# x = 12.34567
+# print(type(f"{x:.2f}"))
+
         
